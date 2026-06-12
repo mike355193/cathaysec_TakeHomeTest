@@ -1,0 +1,6 @@
+@cathaysec_TakeHomeTest_HostAddress = http://localhost:5155
+
+GET {{cathaysec_TakeHomeTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
