@@ -1,7 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\infrastructure\\twsestockmasterdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\infrastructure\\twsestockmasterdataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\infrastructure\\inmemoryrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\infrastructure\\inmemoryrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\models\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\models\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\application\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\application\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\docker-compose.override.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\cathaysec_takehometest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\application\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\application\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\application\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\application\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\logging\\logtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\logging\\logtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\logging\\istructuredlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\logging\\istructuredlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\domain\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|c:\\userfile\\srcself\\cathaysec_takehometest\\cathaysec_takehometest\\cathaysec_takehometest\\middleware\\apiresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDC0671-7246-591B-6C23-607CB153AFDD}|cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.csproj|solutionrelative:cathaysec_takehometest\\middleware\\apiresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +90,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAewDQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:32:29.375Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InMemoryRepositories.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Infrastructure\\InMemoryRepositories.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Infrastructure\\InMemoryRepositories.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Infrastructure\\InMemoryRepositories.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Infrastructure\\InMemoryRepositories.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T09:03:43.205Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TwseStockMasterDataClient.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Infrastructure\\TwseStockMasterDataClient.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Infrastructure\\TwseStockMasterDataClient.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Infrastructure\\TwseStockMasterDataClient.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Infrastructure\\TwseStockMasterDataClient.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T09:52:28.227Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -78,6 +200,227 @@
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StocksController.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Controllers\\StocksController.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Controllers\\StocksController.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Controllers\\StocksController.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Controllers\\StocksController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwC4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T09:03:12.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contracts.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Models\\Contracts.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Models\\Contracts.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Models\\Contracts.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Models\\Contracts.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA0wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T09:03:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "cathaysec_TakeHomeTest.http",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.http",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.http",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.http",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-12T09:03:17.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LogTag.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Logging\\LogTag.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Logging\\LogTag.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Logging\\LogTag.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Logging\\LogTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:48:42.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IStructuredLogger.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Logging\\IStructuredLogger.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Logging\\IStructuredLogger.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Logging\\IStructuredLogger.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Logging\\IStructuredLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:51:26.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Domain\\Stock.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Domain\\Stock.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Domain\\Stock.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Domain\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:35:23.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\Exceptions.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Application\\Exceptions.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\Exceptions.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Application\\Exceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:15:31.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\StockService.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Application\\StockService.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\StockService.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Application\\StockService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:15:29.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\OrderService.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Application\\OrderService.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Application\\OrderService.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Application\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:15:24.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Domain\\Order.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Domain\\Order.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Domain\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:10:37.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-12T07:40:46.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-06-12T07:21:54.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Program.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Program.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Program.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAArwGMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T07:21:30.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiResponseFilter.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Middleware\\ApiResponseFilter.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Middleware\\ApiResponseFilter.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Middleware\\ApiResponseFilter.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Middleware\\ApiResponseFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:32:43.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:32:17.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-06-12T06:23:40.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Dockerfile",
+              "RelativeDocumentMoniker": "cathaysec_TakeHomeTest\\Dockerfile",
+              "ToolTip": "C:\\UserFile\\srcSelf\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\cathaysec_TakeHomeTest\\Dockerfile",
+              "RelativeToolTip": "cathaysec_TakeHomeTest\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-12T06:23:00.303Z",
+              "EditorCaption": ""
             }
           ]
         }

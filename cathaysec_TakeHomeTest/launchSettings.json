@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "cathaysec_takehometest",
+      "composeLaunchUrl": "https://localhost:612/swagger",
+      "launchBrowserTimeout": 10,
+      "serviceActions": {
+        "cathaysec_takehometest": "StartDebugging"
+      }
+    }
+  }
+}

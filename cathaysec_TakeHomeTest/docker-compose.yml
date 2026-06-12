@@ -1,0 +1,6 @@
+services:
+  cathaysec_takehometest:
+    image: ${DOCKER_REGISTRY-}cathaysectakehometest
+    build:
+      context: .
+      dockerfile: cathaysec_TakeHomeTest/Dockerfile

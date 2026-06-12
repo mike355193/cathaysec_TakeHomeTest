@@ -1,6 +1,25 @@
 @cathaysec_TakeHomeTest_HostAddress = http://localhost:5155
+@apiKey = cathaysec-dev-key
 
-GET {{cathaysec_TakeHomeTest_HostAddress}}/weatherforecast/
+GET {{cathaysec_TakeHomeTest_HostAddress}}/api/v1/stocks?page=1&pageSize=10
 Accept: application/json
+X-API-Key: {{apiKey}}
 
 ###
+
+GET {{cathaysec_TakeHomeTest_HostAddress}}/api/v1/stocks/2330
+Accept: application/json
+X-API-Key: {{apiKey}}
+
+###
+
+POST {{cathaysec_TakeHomeTest_HostAddress}}/api/v1/orders
+Content-Type: application/json
+X-API-Key: {{apiKey}}
+
+{
+  "symbol": "2330",
+  "side": "Buy",
+  "price": 1000.00,
+  "quantity": 1000
+}

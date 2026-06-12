@@ -1,3 +1,7 @@
 <Solution>
   <Project Path="cathaysec_TakeHomeTest/cathaysec_TakeHomeTest.csproj" />
+  <Project Path="cathaysec_TakeHomeTest.Tests/cathaysec_TakeHomeTest.Tests.csproj" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
 </Solution>
