@@ -46,8 +46,10 @@ public sealed class StructuredLogger<T>(
 
     private static string BuildCallSite(string sourceFilePath, string memberName, int sourceLineNumber)
     {
-        var fileName = Path.GetFileNameWithoutExtension(sourceFilePath);
-        return $"[{ProjectName}].{fileName}.{memberName}:{sourceLineNumber}";
+        // CallerFilePath may contain Windows separators even when the app runs in a Linux container.
+        var normalizedPath = sourceFilePath.Replace('\\', '/');
+        var fileName = Path.GetFileNameWithoutExtension(normalizedPath);
+        return $"{ProjectName}.{fileName}.{memberName}:{sourceLineNumber}";
     }
 }
 

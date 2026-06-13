@@ -37,7 +37,10 @@ public sealed class InMemoryStockRepository : IStockRepository
         }
 
         var filtered = query.OrderBy(stock => stock.Symbol).ToArray();
-        IReadOnlyList<Stock> pageItems = filtered.Skip((page - 1) * pageSize).Take(pageSize).ToArray();
+        var offset = ((long)page - 1) * pageSize;
+        IReadOnlyList<Stock> pageItems = offset >= filtered.Length
+            ? []
+            : filtered.Skip((int)offset).Take(pageSize).ToArray();
         return Task.FromResult((pageItems, filtered.Length));
     }
 

@@ -100,6 +100,11 @@ builder.Services.AddHttpClient<IStockMasterDataClient, TwseStockMasterDataClient
     client.BaseAddress = new Uri("https://openapi.twse.com.tw/");
     client.Timeout = TimeSpan.FromSeconds(15);
 });
+builder.Services.AddHttpClient<IStockQuoteClient, TwseStockQuoteClient>(client =>
+{
+    client.BaseAddress = new Uri("https://mis.twse.com.tw/stock/api/");
+    client.Timeout = TimeSpan.FromSeconds(5);
+});
 builder.Services.AddHostedService<StockMasterDataInitializer>();
 builder.Services.AddAuthentication(ApiKeyAuthenticationHandler.SchemeName)
     .AddScheme<AuthenticationSchemeOptions, ApiKeyAuthenticationHandler>(

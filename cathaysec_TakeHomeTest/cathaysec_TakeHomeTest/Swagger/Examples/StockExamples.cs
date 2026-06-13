@@ -19,13 +19,20 @@ public sealed class StockSearchResponseExample : IExamplesProvider<ApiResponse<P
         "0HNDAMPLE0001");
 }
 
-public sealed class StockDetailResponseExample : IExamplesProvider<ApiResponse<StockResponse>>
+public sealed class StockDetailResponseExample : IExamplesProvider<ApiResponse<StockDetailResponse>>
 {
-    public ApiResponse<StockResponse> GetExamples() => new(
+    public ApiResponse<StockDetailResponse> GetExamples() => new(
         true,
-        new StockResponse(
+        new StockDetailResponse(
             "2330",
-            "（台積電）台灣積體電路製造股份有限公司"),
+            "（台積電）台灣積體電路製造股份有限公司",
+            1045.00m,
+            1035.00m,
+            1040.00m,
+            1050.00m,
+            1030.00m,
+            23500,
+            new DateTimeOffset(2026, 6, 12, 13, 30, 0, TimeSpan.FromHours(8))),
         null,
         "0HNDAMPLE0002");
 }

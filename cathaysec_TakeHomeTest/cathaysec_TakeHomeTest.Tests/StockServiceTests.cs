@@ -51,9 +51,49 @@ public sealed class StockServiceTests
         Assert.Equal("（元大台灣50）元大台灣卓越50證券投資信託基金", result.Name);
     }
 
-    private static StockService CreateService() => new(
+    [Fact]
+    public async Task GetBySymbolAsync_RepeatedRequest_UsesQuoteCache()
+    {
+        var quoteClient = new FakeStockQuoteClient(new StockQuote(
+            1000m, 990m, 995m, 1005m, 985m, 12345,
+            new DateTimeOffset(2026, 6, 12, 5, 30, 0, TimeSpan.Zero)));
+        var service = CreateService(quoteClient);
+
+        var first = await service.GetBySymbolAsync("2330", CancellationToken.None);
+        var second = await service.GetBySymbolAsync("2330", CancellationToken.None);
+
+        Assert.Equal(1000m, first.LastPrice);
+        Assert.Equal(first, second);
+        Assert.Equal(1, quoteClient.CallCount);
+    }
+
+    [Fact]
+    public async Task SearchAsync_VeryLargePage_ReturnsEmptyPageWithoutOverflow()
+    {
+        var service = CreateService();
+
+        var result = await service.SearchAsync(
+            new StockQuery { Page = int.MaxValue, PageSize = 100 }, CancellationToken.None);
+
+        Assert.Empty(result.Items);
+        Assert.Equal(12, result.TotalCount);
+    }
+
+    private static StockService CreateService(IStockQuoteClient? quoteClient = null) => new(
         new InMemoryStockRepository(TestStocks),
+        quoteClient ?? new FakeStockQuoteClient(null),
         new MemoryCache(new MemoryCacheOptions()));
+
+    private sealed class FakeStockQuoteClient(StockQuote? quote) : IStockQuoteClient
+    {
+        public int CallCount { get; private set; }
+
+        public Task<StockQuote?> GetAsync(string symbol, CancellationToken cancellationToken)
+        {
+            CallCount++;
+            return Task.FromResult(quote);
+        }
+    }
 
     private static readonly Stock[] TestStocks =
     [

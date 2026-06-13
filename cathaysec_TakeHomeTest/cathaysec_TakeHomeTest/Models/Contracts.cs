@@ -43,6 +43,20 @@ public sealed record StockResponse(
     string Symbol,
     string Name);
 
+/// <summary>
+/// 股票基本資料與證交所即時報價。
+/// </summary>
+public sealed record StockDetailResponse(
+    string Symbol,
+    string Name,
+    decimal? LastPrice,
+    decimal? PreviousClose,
+    decimal? OpenPrice,
+    decimal? HighPrice,
+    decimal? LowPrice,
+    long? AccumulatedVolume,
+    DateTimeOffset? QuotedAt);
+
 public sealed class CreateOrderRequest
 {
     /// <summary>

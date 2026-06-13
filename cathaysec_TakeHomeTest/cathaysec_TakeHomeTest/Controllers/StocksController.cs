@@ -41,12 +41,13 @@ public sealed class StocksController(IStockService stocks) : ControllerBase
     /// <param name="cancellationToken">HTTP 請求取消權杖。</param>
     /// <returns>股票代號及公司名稱。</returns>
     [HttpGet("{symbol}")]
-    [ProducesResponseType(typeof(ApiResponse<StockResponse>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse<StockDetailResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
+    [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status503ServiceUnavailable)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
     [SwaggerResponseExample(StatusCodes.Status200OK, typeof(StockDetailResponseExample))]
     [SwaggerResponseExample(StatusCodes.Status404NotFound, typeof(StockNotFoundResponseExample))]
-    public async Task<ActionResult<StockResponse>> GetBySymbol(
+    public async Task<ActionResult<StockDetailResponse>> GetBySymbol(
         [RegularExpression("^[0-9A-Za-z]{1,10}$")] string symbol,
         CancellationToken cancellationToken) =>
         Ok(await stocks.GetBySymbolAsync(symbol, cancellationToken));

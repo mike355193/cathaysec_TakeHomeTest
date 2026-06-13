@@ -11,7 +11,7 @@
 | `logger` | string | 寫入日誌的類別名稱。 |
 | `message` | string | 人類可讀訊息。 |
 | `traceId` | string | HTTP 請求追蹤碼；非 HTTP 事件可為空。 |
-| `callSite` | string | `[專案].檔案.方法:行號`。由 compiler caller attributes 自動產生。 |
+| `callSite` | string | `專案.類別.方法:行號`，例如 `cathaysec_TakeHomeTest.RequestLoggingMiddleware.InvokeAsync:26`。由 compiler caller attributes 自動產生。 |
 | `serviceTag` | string | `LogTag` enum 的分類值。 |
 | `errorCode` | string | 穩定的系統錯誤碼；一般事件為 `-`。 |
 | `parameters` | object | 經過限制與遮罩的結構化參數。 |

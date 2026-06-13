@@ -23,6 +23,7 @@ public sealed class ExceptionHandlingMiddleware(
             {
                 ResourceNotFoundException => (StatusCodes.Status404NotFound, "NOT_FOUND", exception.Message),
                 BusinessRuleException => (StatusCodes.Status400BadRequest, "BUSINESS_RULE_VIOLATION", exception.Message),
+                UpstreamServiceException => (StatusCodes.Status503ServiceUnavailable, "UPSTREAM_UNAVAILABLE", exception.Message),
                 _ => (StatusCodes.Status500InternalServerError, "INTERNAL_ERROR", "An unexpected error occurred.")
             };
 
